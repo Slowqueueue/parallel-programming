@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Nikita\source\repos\PPlab2task27CUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\Nikita\source\repos\PPlab2task27CUDA\x64\Debug\kernel.cu.obj "C:\Users\Nikita\source\repos\PPlab2task27CUDA\kernel.cu" 
+  kernel.cu
+  tmpxft_000042ac_00000000-7_kernel.cudafe1.cpp
+C:\Users\Nikita\source\repos\PPlab2task27CUDA\kernel.cu(55): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+C:\Users\Nikita\source\repos\PPlab2task27CUDA\kernel.cu(55): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+  PPlab2task27CUDA.vcxproj -> C:\Users\Nikita\source\repos\PPlab2task27CUDA\x64\Debug\PPlab2task27CUDA.exe
